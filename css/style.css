@@ -1,0 +1,233 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+body {
+    background-color: rgb(216, 216, 216);
+}
+/* Inicio del Header */
+header {
+    background-color: rgb(0, 255, 255);
+    background-size: 100%;  
+    
+    
+}
+.n-productos-1 {
+    color: #000000;
+    font-weight: 900;
+    display: flex;
+    text-align: center;
+    margin: 10px;
+}
+.n-productos-2 {
+    margin: 10px;
+    text-align: center;
+    text-decoration: underline;
+}
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0;
+    padding-top: 10px;
+}
+
+ul li:hover {
+    background: rgb(216, 216, 216);
+    text-decoration: underline;
+}
+a {
+    color: #000000;
+    text-decoration: none;
+}
+/* Fin del Header*/
+
+
+/* Inicio del main */
+.photo-grid {
+    width: 100%;
+}
+.h2-index {
+    text-align: center;
+    font-style: italic;
+}
+
+.photo-vendedor {
+    width: 100%;
+}
+
+.parrafo-1 {
+    text-align: center;
+}
+.iframe-maps {
+    width: 100%;
+}
+.img-contacto {
+    height: 70px;
+}
+.h2-autos {
+    margin: 10px;
+    text-align: center;
+}
+.h2-contacto {
+    margin: 10px;
+    text-align: center;
+}
+.h3-contacto {
+    text-align: center;
+    margin: 10px;
+}
+.parrafo1-contacto {
+    text-align: center;
+    margin: 15px;
+}
+.h4-contacto {
+    text-align: center;
+    margin: 15px;
+}
+.parrafo2-contacto {
+    text-align: center;
+    margin: 15px;
+}
+
+.h3-nosotros {
+    text-align: center;
+    margin: 10px;
+}
+
+.h2-locales {
+    text-align: center;
+    margin: 10px;
+}
+.position-wsp {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+.position-w {
+    border-radius: 20px;
+    width: 40px;
+    height: 40px;
+}
+/* Fin del Main*/ 
+
+
+/* inicio del footer */
+
+footer {
+    background-color: rgb(0, 255, 255);
+    font-size: 20px;
+    font-style: italic;    
+
+}
+.logo-ig {
+    height: 35px;
+    border-radius: 15px;
+}
+.logo-wsp {
+    height: 35px;
+    border-radius: 15px;
+}
+.image-footer {
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+.p-footer {
+    text-align: center;
+    padding: 15px;
+
+}
+
+/*Fin del footer*/
+
+
+/* Responsive */
+
+@media only screen and ( min-width:501px) and (max-width: 968px) {
+
+    ul {
+        padding: 20px;
+    }
+
+    .h2-index {
+        margin: 20px;
+    }
+
+    .n-productos-2 {
+        padding: 20px;
+    }
+    .n-productos-1 {
+        justify-content: center                                                                                                             ;
+    }
+    .h2-contacto {
+        text-align: center;
+    }
+    .img-contacto {
+        justify-content: center;
+    }
+    .img-contacto {
+ text-align: center;
+       
+    }
+
+    .photo-grid {
+        width: 75%;
+        display: block;
+        margin: auto;
+    }
+    
+    .photo-vendedor {
+        width: 70%;
+        display: block;
+        margin: auto;
+    }
+
+    .iframe-maps {
+        width: 75%;
+        display: block;
+        margin: auto;
+    }
+}    
+
+@media only screen and (min-width: 968px) and (max-width: 2000px) {
+    .n-productos-1 {
+       justify-content: center;
+    }
+
+    .n-productos-2{
+        padding: 20px;
+    }
+    ul {
+        padding: 20px;
+    }
+    .h2-index {
+        margin: 20px;
+    }
+
+    .photo-grid {
+        width: 60%;
+        display: block;
+        margin: auto;
+    }
+    .photo-vendedor {
+        width: 50%;
+        display: block;
+        margin: auto;
+    }
+
+    .iframe-maps {
+        width: 65%;
+        display: block;
+        margin: auto;
+    }
+
+    .logo-ig {
+        height: 45px;
+        border-radius: 15px;
+    }
+    .logo-wsp {
+        height: 45px;
+        border-radius: 15px;
+}
